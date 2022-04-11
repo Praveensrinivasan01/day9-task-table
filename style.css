@@ -1,0 +1,23 @@
+body{padding-left: 500px;
+}
+    fieldset{
+    width: 500px;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: monospace;
+    font-size: xx-large;
+}
+#age,#name{
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+}
+#add,#create{
+    width: 150px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#myTableData{
+text-align: center;
+}

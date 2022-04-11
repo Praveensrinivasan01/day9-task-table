@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML dynamic table using JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="load()">
+    <fieldset>
+<div id="myform">
+<b>FORM - NAME & AGE</b>
+<br><br>
+<table>
+ 
+    <tr>
+        <td>NAME:</td>
+        <td><input type="text" id="name"><br><br></td>
+    </tr>
+    <tr>
+        <td>AGE:</td>
+        <td><input type="text" id="age">
+        <input type="button" id="add" value="Add" onclick="Javascript:addRow()"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+</div>
+<div id="mydata">
+    <hr>
+<b>CURRENT DATA</b>
+<br><br>
+<center>
+<table id="myTableData"  border="1px" cellpadding="2">
+    <tr>
+        <td>&nbsp;</td>
+        <td><b>Name</b></td>
+        <td><b>Age</b></td>
+    </tr>
+</table>
+</center>
+&nbsp;
+ 
+</div>
+<div id="myDynamicTable">
+<input type="button" id="create" value="Click here" onclick="Javascript:addTable()">
+
+</div>
+<script type="text/javascript" src="script.js"></script>
+</fieldset>
+</body>
+
+</html>
+
